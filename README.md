@@ -1,7 +1,3 @@
-# X-Ray-Image-Preprocessing-and-Feature-Extraction
-This notebook preprocesses leg and hand X-rays, creating augmented splits and extracting feature vectors using Vision Transformer (ViT) and InceptionV3. It includes steps for data augmentation, train/test splits, and saving features in .pkl files for model training in later notebooks.
-
-
 1_Preprocessing_and_Feature_Vector_Extraction_for_both_Hands_and_Legs.ipy nb: The code Generates augmented split images and the feature vectors for hand and leg dataset.
 a. Give relevant paths to the notebook, Create 3 folders for Additional , Output , and Masked datasets for variables, synthetic_folder, masked_synthetic_folder, additional_folder
 b. The code will load these 3 folders with relevant image splits.
