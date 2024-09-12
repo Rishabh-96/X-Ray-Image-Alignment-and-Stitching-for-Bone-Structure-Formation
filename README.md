@@ -23,3 +23,17 @@ loaded from
 gs.pynb.
 e. Now run the code, No manual monitoring required, The code will work on preprocessing Leg dataset and creating shuffled dataset for training GRU sequence model and the Regression Model. Eventually the image stitching pipeline to visualize the end results. Following which other tried approaches for the regression model and a "Before and after" stitching and aligning code to visualize the process.
 f. Graphs for the models are all included in the last file which is 3_Hand Notebook.ipynb
+
+
+
+3_Hand_Notebook.ipynb : This Notebook is used to train the GRU sequence prediction model and Train the Regression Models. The best Regression model is placed first, following with the image stitching pipeline
+a. Give relevant paths to the notebook to the variable file_path (all three). Created feature vectors from the previous code to be loaded in the Output , and Masked datasets.
+b. Give Dataset.csv file's path from fracatlas folder to variable file_path_csv.
+c. Variable original_folder shall also point to the input_folder path ( the one
+combining both the fractured and non fractured x ray images in one folder).
+d. Json_path same as before, points to the coordinates_and_rotations.pkl file
+loaded from
+1_Preprocessing_and_Feature_Vector_Extraction_for_both_Hands_and_Le
+gs.pynb.
+e. Now run the code, No manual monitoring required, The code will work on preprocessing Hand dataset and creating shuffled dataset for training GRU sequence model and the Regression Model. Eventually the image stitching pipeline to visualize the end results. Following which other tried approaches for the regression model and a "Before and after" stitching and aligning code to visualize the process.
+f. Appendix Graphs for the models are all included in the last which also includes the graphs for the second Leg models.
